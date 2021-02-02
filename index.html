@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botão TDFW</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon-TDFW-2.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>
+        Botão turn down for what
+    <br>
+    &DoubleDownArrow;
+    </h1>
+    <audio id="myAudio">
+        <source src="musica.mp3" type="audio/mpeg">
+      </audio>
+      <div><img src="botão.png" alt="" onclick="playAudio()" type="button"> &nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="botão de pausar.png" alt="" onclick="pauseAudio()" type="button"></div>
+      <script>
+      var x = document.getElementById("myAudio"); 
+      
+      function playAudio() { 
+        x.play(); 
+      } 
+      
+      function pauseAudio() { 
+        x.pause(); 
+      } 
+      </script>
+      <br><br><br><br><br><br><br><br><br><br>
+      <p>Criado por <strong>Samuel Oliveira Rodrigues da Silva</strong></p>
+      <p style="font-family: Arial;">Para acessar o meu canal no youtube <a href="https://www.youtube.com/channel/UCg-wd57L7HDvksxEvYZvHKg?view_as=subscriber" target="_blank" rel="external" title="se inscreva &#x1F604;">clique aqui</a></p>
+</body>
+</html>
